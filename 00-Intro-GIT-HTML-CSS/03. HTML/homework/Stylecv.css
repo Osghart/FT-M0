@@ -1,0 +1,42 @@
+h5{
+    font-size: 16px;
+    border: rgb(202, 250, 114);
+    border-style: solid;
+
+}
+h6{
+    font-size: 16px;
+    border: salmon;
+    border-style: solid;
+}
+
+h4{
+    font-size: 16px;
+    border: rgb(43, 11, 8);
+    border-style: solid;
+}
+h3{
+    font-size: 16px;
+    border: rgb(141, 172, 4);
+    border-style: solid;
+}
+h2{
+    font-size: 16px;
+    border: rgb(34, 6, 158);
+    border-style: solid;
+}
+h1{
+    font-size: 16px;
+    border: rgb(12, 12, 12);
+    border-style: solid;
+    background-color: seagreen;
+}
+.backgroundYellow{
+    background-color: yellow;
+    
+}
+#bordeNegro{
+    border: 12px solid black;
+    border-style: double;
+
+}
