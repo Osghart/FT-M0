@@ -92,6 +92,7 @@ function menosQueNoventa(num) {
 //       return false;
 // }
 return num < 90
+}
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -193,8 +194,9 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludoCompleto = "hola" + nombre + "!"
-  return saludoCompleto
+  // var saludoCompleto = "Hola " + nombre + "!"
+  // return saludoCompleto
+  return "Hola " + nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -285,4 +287,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
