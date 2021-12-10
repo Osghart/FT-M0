@@ -18,9 +18,6 @@ const nuevaMultiplicacion = 10 * 4 === 40
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
 
-
-
-
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
 // Asegúrate que usas "return" cuando la consola te lo pida.
@@ -67,7 +64,6 @@ function sonIguales(x, y) {
   } else {
     return false;
   }
-    
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -79,7 +75,6 @@ function tienenMismaLongitud(str1, str2) {
   // } else return false;
 
   return str1.length === str2.length
-
 }
 
 function menosQueNoventa(num) {
@@ -132,7 +127,6 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
    return Math.pow(num, 2)
-  
 }
 
 function elevarAlCubo(num) {
@@ -203,9 +197,7 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return alto * ancho
-
 }
-
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
@@ -213,14 +205,11 @@ function retornarPerimetro(lado){
   return lado * 4
 }
 
-
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return (base * altura) / 2
-
 }
-
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
@@ -228,9 +217,7 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   var dolar = euro * 1.20
   return dolar
-  
 }
-
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
@@ -245,10 +232,7 @@ function esVocal(letra){
   if (letra === "i") return "Es vocal"
   if (letra === "o") return "Es vocal"
   if (letra === "u") return "Es vocal"
-  
 }
-
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
