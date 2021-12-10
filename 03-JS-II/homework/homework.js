@@ -47,7 +47,6 @@ function saludo(idioma) {
   else if (idioma === "ingles")
   return "Hello!"
   else return "Hola!"
-
 }
 
 /*
@@ -69,7 +68,6 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  
   switch (color) {
     case "blue":
       return "This is blue"
@@ -82,7 +80,6 @@ function colors(color) {
       
     default:
       return "Color not found"
-    
   }
 }
 
@@ -128,7 +125,6 @@ function fizzBuzz(numero) {
   if(numero % 3 === 0) return "fizz"
   if(numero % 5 === 0) return "buzz"
   return numero
-
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -138,13 +134,11 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-
   if(num1 === 0 || num2 === 0 || num3 === 0) return "Error"
   if(num1 < 0 || num2 < 0 || num3 < 0) return "Hay negativos"
   if(num1 > num2 && num1 > num3 && num1 > 0) return "Número 1 es mayor y positivo"
   if(num3 > num1 && num3 > num2) return num3 + 1
   return  false
-
 }
 
 function esPrimo(numero) {
@@ -175,7 +169,6 @@ function esVerdadero(valor){
   else {
     return "Soy falso"
   }
-
 }
 
 function tieneTresDigitos(numero){
@@ -197,7 +190,6 @@ function doWhile(numero) {
     
   return numero
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
