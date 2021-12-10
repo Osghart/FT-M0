@@ -8,7 +8,6 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-
   function Usuario(opciones){
     this.usuario = opciones.usuario;
     this.nombre = opciones.nombre;
@@ -68,7 +67,6 @@ function agregarStringInvertida() {
     //   Edad: 22,
     //   Domicilio: 'Saavedra 123'
     //  }
-
   class Persona {
     constructor(nombre, apellido, edad, domicilio) {
       // Crea el constructor:
@@ -104,7 +102,6 @@ function agregarMetodo() {
   }
 }
   
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
