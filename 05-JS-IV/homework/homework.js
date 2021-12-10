@@ -16,8 +16,6 @@ function crearGato(nombre, edad) {
   return gato
   }
 
-
-
 function agregarPropiedad(objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
   // Devuelve el objeto
@@ -70,7 +68,6 @@ function tieneEmail(usuario) {
   if (usuario.email) return true
   return false
 }
-
 
 function tienePropiedad(objeto, propiedad) {
   // Devuelve "true" si el objeto tiene el valor del argumento "propiedad"
@@ -131,7 +128,6 @@ function sumarLikesDeUsuario(usuario) {
     total += usuario.posts[i].likes
   }
     return total
-
 }
 
 function agregarMetodoCalculoDescuento(producto) {
